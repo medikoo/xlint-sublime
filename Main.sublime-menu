@@ -1,0 +1,58 @@
+[
+  {
+    "caption": "Tools",
+    "mnemonic": "t",
+    "id": "tools",
+    "children": [
+      {
+        "id": "xlint",
+        "caption": "XLint",
+        "command": "xlint"
+      }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "XLint",
+            "children": [
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/XLint/XLint.sublime-settings"
+                },
+                "caption": "Settings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/User/XLint.sublime-settings"
+                },
+                "caption": "Settings – User"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/XLint/XLint.sublime-build"
+                },
+                "caption": "Advanced Build Settings"
+              },
+              {
+                "caption": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+

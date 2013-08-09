@@ -1,0 +1,12 @@
+{
+	"cmd": [
+	  "node", 
+	  "${packages}/XLint/node_modules/xlint/bin/xlint",
+		// Provide path to included linter
+		"--linter=${packages}/XLint/node_modules/xlint-jslint-medikoo-mod/index.js",
+		// No color
+		"--no-color",
+	  "$file"
+	],
+	"selector": "source.js"
+}
