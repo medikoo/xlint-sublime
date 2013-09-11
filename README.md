@@ -10,9 +10,9 @@ NodeJS must be installed on your system and you must be able to run 'node' from 
 ### Installation
 
 In your console go to Packages folder of Sublime Text:
-* Linux: ~/.config/sublime-text-2/Packages
-* Mac: ~/Library/Application Support/Sublime Text 2/Packages
-* Windows: %APPDATA%/Sublime Text 2/Packages
+* Linux: _~/.config/sublime-text-2/Packages_
+* Mac: _~/Library/Application Support/Sublime Text 2/Packages_
+* Windows: _%APPDATA%/Sublime Text 2/Packages_ or if it's not there, then try _%APPDATA%/Roaming/Sublime Text 2/Packages_
 
 Clone this project into _XLint_ folder
 
