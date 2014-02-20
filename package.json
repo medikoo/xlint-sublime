@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "XLint build system for Sublime Text2",
   "dependencies": {
-    "xlint": "git://github.com/medikoo/xlint",
-    "xlint-jslint-medikoo-mod": "git://github.com/medikoo/xlint-jslint-medikoo-mod"
+    "xlint": "git://github.com/medikoo/xlint.git",
+    "xlint-jslint-medikoo": "git://github.com/medikoo/xlint-jslint-medikoo.git"
   },
   "devDependencies": {},
   "scripts": {
