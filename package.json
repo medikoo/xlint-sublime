@@ -2,18 +2,7 @@
   "name": "xlint-sublime",
   "version": "0.1.0",
   "description": "XLint build system for Sublime Text2",
-  "dependencies": {
-    "xlint": "git://github.com/medikoo/xlint.git",
-    "xlint-jslint-medikoo": "git://github.com/medikoo/xlint-jslint-medikoo.git"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/medikoo/xlint-sublime"
-  },
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
   "keywords": [
     "sublime",
     "sublimetext",
@@ -22,9 +11,13 @@
     "lint",
     "jshint"
   ],
-  "author": "Mariusz Nowak",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/medikoo/xlint-sublime/issues"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/xlint-sublime"
+  },
+  "dependencies": {
+    "xlint": "0.2.x",
+    "xlint-jslint-medikoo": "0.1.x"
+  },
+  "license": "MIT"
 }
