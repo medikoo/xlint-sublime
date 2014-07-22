@@ -16,7 +16,7 @@
     "url": "git://github.com/medikoo/xlint-sublime"
   },
   "dependencies": {
-    "xlint": "0.2.x",
+    "xlint": "git://github.com/medikoo/xlint.git",
     "xlint-jslint-medikoo": "0.1.x"
   },
   "license": "MIT"
